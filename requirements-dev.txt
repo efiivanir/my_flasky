@@ -1,0 +1,19 @@
+-r requirements.txt
+setuptools
+wheel
+ipython
+pytest
+pytest-cov
+astroid
+black
+flake8
+lxml
+mypy
+pydocstyle
+pylint
+pytz
+reorder-python-imports
+sphinx
+sphinx-autodoc-typehints
+sphinxcontrib-spelling
+webtest
