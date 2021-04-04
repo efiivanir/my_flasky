@@ -1,10 +1,10 @@
-# stam issue
 from datetime import datetime
 import os
 
 from flask import Flask, make_response, redirect, render_template
 from flask import session, url_for, flash
 from flask_bootstrap import Bootstrap
+from flask_migrate import Migrate
 from flask_moment import Moment
 from flask_wtf import FlaskForm
 from flask_sqlalchemy import SQLAlchemy
@@ -22,6 +22,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 bootstrap = Bootstrap(app)
 moment = Moment(app)
 db = SQLAlchemy(app)
+migrate = Migrate(app, db)
 
 
 class NameForm(FlaskForm):
