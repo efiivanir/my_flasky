@@ -4,3 +4,5 @@ python-dotenv
 flask_wtf
 flask-migrate
 WTForms
+flask-mail
+flask-shell-ipython
