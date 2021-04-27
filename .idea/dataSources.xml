@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="data" uuid="cfd414be-b81c-4405-b264-50644315e692">
+    <data-source source="LOCAL" name="data" uuid="d92d76ef-6e54-419f-a668-ec6d63830a42">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
@@ -14,18 +14,6 @@
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.31.1/license.txt</url>
         </library>
       </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="runs.db" uuid="ef6d9d25-5257-45eb-8adb-b1719d1b79c1">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/runs.db</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="runs.db [2]" uuid="15749a4b-fce7-412d-91a4-77ffe9c4de93">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/runs.db</jdbc-url>
     </data-source>
   </component>
 </project>

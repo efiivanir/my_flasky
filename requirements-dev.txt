@@ -1,19 +1,20 @@
 -r requirements.txt
-setuptools
-wheel
-ipython
-pytest
-pytest-cov
 astroid
 black
 flake8
+flask-shell-ipython
+ipython
 lxml
 mypy
 pydocstyle
 pylint
+pytest
+pytest-cov
 pytz
 reorder-python-imports
+setuptools
 sphinx
 sphinx-autodoc-typehints
 sphinxcontrib-spelling
 webtest
+wheel
